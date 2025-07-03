@@ -141,7 +141,7 @@ public class UnicodeWindow extends JFrame {
      */
     private void initWindow() {
         // 创建窗体，设置窗体标题
-        setTitle("Unicode编码");
+        setTitle("Unicode编码工具");
         // 设置窗体关闭方式 -- 仅关闭当前窗口
         setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         // 设置窗体大小

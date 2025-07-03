@@ -100,7 +100,7 @@ public class MainWindow extends JFrame {
         // 添加按钮点击事件
         translateButton.addActionListener(e -> {
             // 创建翻译窗体
-            new TranslationWindow(this);
+            new TranslationWindow();
         });
         // 添加按钮
         panel.add(translateButton);
